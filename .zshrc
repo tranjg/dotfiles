@@ -11,8 +11,11 @@ ZSH=/usr/share/oh-my-zsh/
 # Path to powerlevel10k theme
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
+# fzf configurations
+export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
+
 # List of plugins used
-plugins=( git sudo zsh-256color zsh-autosuggestions zsh-syntax-highlighting )
+plugins=( git sudo zsh-256color zsh-autosuggestions zsh-syntax-highlighting fzf )
 source $ZSH/oh-my-zsh.sh
 
 # In case a command is not found, try to find the package that has it
