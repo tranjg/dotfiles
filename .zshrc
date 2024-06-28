@@ -96,4 +96,4 @@ alias mkdir='mkdir -p'
 pokemon-colorscripts --no-title -r 1,3,6
 
 # Set GPG ENV to read inputs
-export GPG_TTY=$(tty)
+export GPG_TTY=$TTY
