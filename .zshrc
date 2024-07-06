@@ -11,6 +11,9 @@ ZSH=/usr/share/oh-my-zsh/
 # Path to powerlevel10k theme
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
+# Set up fzf key bindings and fuzzy completion
+source <(fzf --zsh)
+
 # fzf configurations
 export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
 
